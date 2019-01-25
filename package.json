@@ -1,6 +1,10 @@
 {
   "name": "Colton-Davis",
   "version": "1.0.0",
+  "engines": {
+    "node": "11.1.0",
+    "npm": "6.4.1"
+  },
   "description": "This README would normally document whatever steps are necessary to get the application up and running.",
   "main": "index.js",
   "directories": {
