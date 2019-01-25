@@ -32,15 +32,15 @@ const ExperienceSkills = () => {
           <H2>Skills</H2>
           <SkillList>
             <Skill>
-            <CodeImg src={es6}/>
+              <CodeImg src={es6}/>
               Javascript/ES6
             </Skill>
             <Skill>
-            <CodeImg src={ruby}/>
+              <CodeImg src={ruby}/>
               Ruby/Ruby on Rails
             </Skill>
             <Skill>
-            <CodeImg src={react}/>
+              <CodeImg src={react}/>
               React/Context Api/Redux
             </Skill>
             <Skill>
@@ -48,20 +48,20 @@ const ExperienceSkills = () => {
               HTML/CSS
             </Skill>
             <Skill>
-            <CodeImg src={sql}/>
+              <CodeImg src={sql}/>
               Postgres/SQL
             </Skill>
             <Skill>
-            <CodeImg src={git}/>
+              <CodeImg src={git}/>
               Git/Github/Heroku
             </Skill>
             <Skill>
-            <CodeImg src={command}/>
+              <CodeImg src={command}/>
               Command Line
             </Skill>
             <Skill>
-            <CodeImg src={sbm}/>
-              Semantic Ui/Bootstrap
+              <CodeImg src={sbm}/>
+              · Semantic-Ui<br/>· Bootstrap<br/>· Materalize
             </Skill>
           </SkillList>
         </Skills>

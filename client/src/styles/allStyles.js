@@ -10,13 +10,17 @@ export const PageWrap = styled.div`
   justify-content: space-between
   max-width: 99%
   height: 100vh
-  margin-bottom: 5%
+  margin-bottom: 15%
 `
 
 export const TitleWrap = styled.div`
   text-align: center
   margin-top: 25%
   width: 85%
+
+  @media(min-width: 1200px) {
+    margin-top: 15%
+  }
 `
 export const CD = styled.h1`
   font-size: 3rem
@@ -41,6 +45,13 @@ export const Page2Wrap = styled.div`
   flex-direction: column
   max-width: 99%
   min-height: 100vh
+  max-height: 100vh
+
+  @media(min-width: 700px) {
+    flex-direction: row
+    min-height: 80vh
+  max-height: 80vh
+  }
 `
 export const H2 = styled.h2`
   font-size: 1.5rem
@@ -49,7 +60,7 @@ export const H2 = styled.h2`
   width: 95%
 `
 export const Experience = styled.div`
-  padding-left: 5%
+  padding-left: 2%
   border-left: 3px solid #eee
 `
 export const ExParagraph = styled.p`
@@ -64,13 +75,26 @@ export const ExImgWrap = styled.div`
 `
 
 export const ExImg = styled.img`
-  width: 175px
-  height: 175px
+  width: 45%
+  height: 45%
+
+  @media (min-width: 480px) {
+    max-width: 180px
+    max-height: 180px
+    margin-left: 5%
+  }
+  @media (min-width: 700px) {
+  }
+  @media (min-width: 1080px) {
+    margin-left: 15%
+  }
 `
 
 export const Skills = styled.div`
-  padding-left: 5%
+  padding-left: 2%
   border-left: 3px solid #eee
+  width: 100%
+  max-height: 75%
 `
 export const SkillList = styled.ul`
   display: flex
@@ -84,6 +108,7 @@ export const SkillList = styled.ul`
 export const Skill = styled.li`
   display: flex
   align-items: center
+  border-bottom: 2px solid #414141
 `
 export const CodeImg = styled.img`
   width: 34px
