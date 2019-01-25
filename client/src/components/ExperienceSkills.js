@@ -1,5 +1,5 @@
 import React from 'react'
-import { Page2Wrap, H2, Experience, ExParagraph, ExImg, Skills, SkillList, Skill, CodeImg, } from '../styles/allStyles'
+import { Page2Wrap, H2, Experience, ExParagraph, ExImg, ExImgWrap, Skills, SkillList, Skill, CodeImg, } from '../styles/allStyles'
 import css from './code-pics/css.png'
 import command from './code-pics/command.png'
 import es6 from './code-pics/es6.png'
@@ -18,14 +18,14 @@ const ExperienceSkills = () => {
       <Page2Wrap>
         <Experience>
         <H2>Experience</H2>
-        <H2>Education</H2>
           <ExParagraph>
             I've obtained various sets of skills, while building Ruby on Rails and ReactJS apps from the bottom up. Doing so while recieving my education from the University of Utah, Professional Education, and Devpoint Labs Course.
           </ExParagraph>
-            <div>
+          <H2>Education</H2>
+            <ExImgWrap>
               <ExImg src={uou} />
               <ExImg src={dpl} />
-            </div>
+            </ExImgWrap>
         </Experience>
 
         <Skills>

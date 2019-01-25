@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Arbutus+Slab|Gloria+Hallelujah|Indie+Flower|Patrick+Hand|Permanent+Marker');
+
+/*
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Patrick Hand', cursive; 
+*/
+
 * {
   margin: 0;
   padding: 0;
   background-color: #000;
-  color: #eee
+  color: #eee;
+  font-family: 'Patrick Hand', cursive;
 }

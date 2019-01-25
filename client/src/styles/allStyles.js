@@ -46,7 +46,7 @@ export const H2 = styled.h2`
   font-size: 1.5rem
   margin-bottom: 2%
   border-bottom: 3px solid #eee
-  width: 85%
+  width: 95%
 `
 export const Experience = styled.div`
   padding-left: 5%
@@ -58,11 +58,14 @@ export const ExParagraph = styled.p`
   line-height: 1.6 
   padding-bottom: 5%
 `
+export const ExImgWrap = styled.div`
+  display: flex
+  align-items: center
+`
 
 export const ExImg = styled.img`
-  width: 180px
-  height: 180px
-  margin: 10% auto
+  width: 175px
+  height: 175px
 `
 
 export const Skills = styled.div`
@@ -89,5 +92,12 @@ export const CodeImg = styled.img`
 `
 
 
-// 
+// Projects 
+
+export const Page3Wrap = styled.div`
+  display: flex
+  flex-direction: column
+  max-width: 99%
+  min-height: 100vh
+`
 
